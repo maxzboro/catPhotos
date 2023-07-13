@@ -25,7 +25,12 @@ a:hover{
     background-size: cover;
     background-position: center;
     font-size: 3vw;
-
+    text-shadow: #000000;
+    transition: 0.5s;
+}
+.mainpage:hover{
+    letter-spacing: 2px;
+    margin: 0;
 }
 .w{
   color: white;
@@ -37,4 +42,10 @@ a:hover{
 .icatph{
     width: 333px;
     height: 444px;
+}
+.dcatph{
+    color: #000000;
+}
+.hcatph{
+    height: 60px;
 }
